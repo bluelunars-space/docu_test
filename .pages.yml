@@ -13,7 +13,7 @@ content:
         type: string
       - name: description
         label: 설명
-        type: string
+        type: text
       - name: body
         label: 내용
         type: rich-text
