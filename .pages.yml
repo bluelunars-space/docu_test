@@ -1,0 +1,16 @@
+media:
+  input: docs/images
+  output: /images
+
+content:
+  - name: docs
+    label: 문서
+    type: collection
+    path: docs
+    fields:
+      - name: title
+        label: 제목
+        type: string
+      - name: body
+        label: 내용
+        type: rich-text
